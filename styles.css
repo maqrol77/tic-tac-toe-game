@@ -1,0 +1,58 @@
+h1 {
+    text-align: center;
+}
+
+.game-board {
+    width: 700px;
+    height: 700px;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+}
+
+.grid-row {
+    border-radius: 6px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 4em;
+    display: grid;
+    grid-template-rows: 1 fr;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.red {
+    color: red;
+}
+
+.white {
+    color: blue;
+}
+
+.reset-button {
+    background-color: #6086e0;
+    border-radius: 10px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #fff;
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+    height: 100px;
+}
+
+.mark {
+    font-size: 60px;
+}
+
+.counter {
+    text-align: center;
+}
+
+.counter h2 {
+    display: inline-block;
+    margin: 10px;
+}
